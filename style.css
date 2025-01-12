@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background:#F1F1F3 ;
+}
+nav{
+    background:#F1F1F3;
+    height: 100px;
+    display: flex;
+    align-items: center;
+ }
+.nav-div-one{
+    width: 1280px;
+    margin: auto;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-div-one h3{
+    font-weight:bold;
+    font-weight: 32px;
+}
+
+.nav-div-one li{
+    list-style: none;
+}
+.nav-div-one button{
+    border:1px solid #006A50 ;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+/* hero section */
+.section-one{
+    width: 1280px;
+    background:#C6E4D6 ;
+    border-radius: 24px;
+    margin: auto;
+    display: flex;
+    
+}
+.hl-div{
+    margin: 130px 64px 130px 59px;
+    width: 622px ;
+    height: 300px;
+}
+.hl-div>h3{
+    font-weight:500;
+    color:rgba(14,14,14,0.5) ;
+    font-size:24px ;
+    margin-bottom: 16px;
+}
+.hl-div>p{
+    font-weight:bold ;
+    font-size: 56px;
+    margin-bottom: 24px;
+    color: #0E0E0E;
+}
+.hl-div>button{
+    background:#006A50 ;
+    border-radius: 8px;
+    border: none;
+    padding: 17px 34px;
+    color:#FFFFFF ;
+    font-weight: 600;
+    font-size: 18px;
+}
+.hr-div{
+    margin: 80px 59.99px 80px 0;
+}
+/* pillars of bd */
+.pillars-bd{
+    width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+}
+.pillars-bd>h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.pillars-card{
+    margin-top: 32px;
+    display: flex;
+    column-gap: 24px;
+}
+.card{
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.card>div>h3{
+    color:#0E0E0E ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card>div>p{
+    color: rgba(14,14,14,0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.vision-future{
+    width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+}
