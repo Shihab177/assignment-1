@@ -279,7 +279,7 @@ nav{
     width: 24px;
     height: 24px;
 }
-/* resent news */
+/* recent news */
 .resent-news{
     width: 1280px;
     margin: auto;
@@ -338,5 +338,74 @@ nav{
 }
 .rc-imgdiv2{
     margin-left: 32px;
+}
+/* donate today */
+.donate{
+    width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.d-fast-div>h2{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.d-fast-div>p{
+    font-weight: 500;
+    font-size: 16px;
+    color:rgba(14,14,14,0.7);
+    text-align: center;
+    
+}
+.tk-div{
+    width: 1071px;
+    margin: auto;
+    margin-top: 32px;
+   
+}
+.tk-div>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.tk-div>ul>li{
+    list-style: none;
+    background:#FFFFFF;
+    padding: 40px;
+    border-radius: 16px;
+
+}
+#tk-color{
+    background:#C6E4D6 ;
+}
+.tk-div>ul>li:hover{
+    background:#e15f41 ;
+}
+#tk-color:hover{
+    background:#e15f41;
+}
+.input{
+    width: 1032px;
+    margin: auto;
+    margin-top: 32px;
+}
+input[type="text"]{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+.btn{
+    margin: auto;
+}
+.donate>button{
+    background:#006A50 ;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    margin: auto;
+    margin-top: 32px;
+}
+.donate>button:hover{
+    background:#e15f41 ;
 }
 
