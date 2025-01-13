@@ -193,6 +193,7 @@ nav{
 }
 
 .dmy{
+    position: relative;
     width: 1280px;
     margin: auto;
     margin-top: 32px;
@@ -201,7 +202,11 @@ nav{
     padding: 48px 24px;
     box-sizing: border-box;
 }
-
+.quoto-bg{
+    position: absolute;
+    left: 24px;
+    top: 25px;
+}
 .dmy-second>p{
     font-size: 16px;
     font-weight: 500;
@@ -436,6 +441,7 @@ input[type="text"]{
 }
 /* newsletter */
 .newsletter{
+    border-radius: 24px;
     width: 1280px;
     margin: auto;
     margin-top: 80px;
@@ -444,6 +450,8 @@ input[type="text"]{
 }
 .n-div{
     text-align: center;
+    width: 750px;
+    margin: auto;
 }
 .n-div>p{
     margin: 16px 0 24px 0;
@@ -453,16 +461,13 @@ input[type="text"]{
 
 }
 .p-input{
-    margin: auto;
-    width: 750px;
-    display: flex;
+    text-align: left;
+    background: brown;
     margin-bottom: 24px;
-}
-.n-input{
-    width: 600px;
+    display: flex; 
 }
 input[type='email']{
-    width: 100%;
+    width: 600px;
     padding: 18px 0 18px 40px;
     border: none;
 }
