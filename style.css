@@ -212,7 +212,7 @@ nav{
 .h2-heading{
     font-weight: bold;
     font-size: 40px;
-    color:rgba(14,14,14,0.8) ;
+    color:#0E0E0E ;
 }
 .h5-heading{
     font-weight: 600;
@@ -278,5 +278,65 @@ nav{
     color: #0E0E0E;
     width: 24px;
     height: 24px;
+}
+/* resent news */
+.resent-news{
+    width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+}
+.r-fastdiv>p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14,14,14,0.6);
+   
+}
+.rc-imgdiv{
+    margin-right: 32px;
+}
+.rc-img{
+    border-radius: 24px;
+}
+.rc-text{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14,14,14,0.8);
+}
+.rc-text>img{
+ margin: 12px 0;   
+}
+.rc-text>p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(14,14,14,0.7);
+}
+.rc-text>span{
+    margin-left: 12px;
+}
+.text-two{
+    margin: 12px 0 32px 0;
+}
+.text-two>p{
+    font-weight: 500;
+    font-size: 16px;
+    color:rgba(14,14,14,0.7) ;
+
+}
+.rc-text>button{
+    background:#006A50 ;
+    padding: 13px 26px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+}
+.r-card1{
+    background: #FFFFFF;
+    display: flex;
+    padding: 56px 48px;
+    margin-top: 32px;
+    border-radius: 24px;
+}
+.rc-imgdiv2{
+    margin-left: 32px;
 }
 
