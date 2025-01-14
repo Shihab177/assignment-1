@@ -458,11 +458,9 @@ input[type="text"]{
     font-weight: 500;
     font-size: 16px;
     color:rgba(14,14,14,0.7);
-
 }
 .p-input{
     text-align: left;
-    background: brown;
     margin-bottom: 24px;
     display: flex; 
 }
@@ -470,6 +468,7 @@ input[type='email']{
     width: 600px;
     padding: 18px 0 18px 40px;
     border: none;
+    border-radius: 8px 0 0 8px;
 }
 .p-input>button{
     background: #006A50;
@@ -482,6 +481,7 @@ input[type='email']{
     background:#e15f41 ;
 }
 .footer{
+    margin-top: 80px;
     background: #FFFFFF;
     padding: 50px 0 50px 0;
 }
