@@ -481,26 +481,31 @@ input[type='email']{
 .p-input>button:hover{
     background:#e15f41 ;
 }
-footer{
+.footer{
     background: #FFFFFF;
+    padding: 50px 0 50px 0;
 }
-footer>h2{
+.footer-h2{
+    width: 222px;
+    margin: auto;
     text-align: center;
+}
+.footer-h2>h2{
     font-weight:bold;
     font-size: 32px;
-    margin-top: 50px;
-    margin-bottom: 34px;
 }
-footer>.social{
+.footer>.social{
     display: flex;
-    padding: 32px 0 50px 0;
     margin: auto;
     width: 120px;
     column-gap: 23px;
 }
 hr{
+    border: 1px solid;
     width: 1122px;
     margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 
